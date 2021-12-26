@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="532.0" prefWidth="748.0" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Quadratic Equation" />
+   <TextField fx:id="quadraticEquation" style="-fx-max-width: 250;" />
+   <Button fx:id="solve" mnemonicParsing="false" onMouseClicked="#solve" style="-fx-background-color: linear-gradient(#f2f2f2, #d6d6d6),        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),        linear-gradient(#dddddd 0%, #f6f6f6 50%);;" text="SOLVE" />
+
+    <Label fx:id="welcomeText" />
+   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Solution" />
+   <TextArea fx:id="output" prefHeight="121.0" prefWidth="551.0" />
+</VBox>
